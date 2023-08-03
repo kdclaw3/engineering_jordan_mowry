@@ -1,0 +1,709 @@
+{
+  "currentVersion": 10.81,
+  "serviceDescription": "",
+  "mapName": "Layers",
+  "description": "",
+  "copyrightText": "",
+  "supportsDynamicLayers": true,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Services",
+      "parentLayerId": -1,
+      "defaultVisibility": false,
+      "subLayerIds": [1, 2, 5, 6, 7, 10, 11, 17],
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Group Layer"
+    },
+    {
+      "id": 1,
+      "name": "Waste Pickup Days",
+      "parentLayerId": 0,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 1100,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon"
+    },
+    {
+      "id": 2,
+      "name": "Waste Facilities",
+      "parentLayerId": 0,
+      "defaultVisibility": true,
+      "subLayerIds": [3, 4],
+      "minScale": 300000,
+      "maxScale": 0,
+      "type": "Group Layer"
+    },
+    {
+      "id": 3,
+      "name": "Waste Facilities - Closed",
+      "parentLayerId": 2,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "id": 4,
+      "name": "Waste Facilities - Open",
+      "parentLayerId": 2,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "id": 5,
+      "name": "Caravan Parks",
+      "parentLayerId": 0,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 50000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "id": 6,
+      "name": "Hospitals",
+      "parentLayerId": 0,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 50000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "id": 7,
+      "name": "Libraries",
+      "parentLayerId": 0,
+      "defaultVisibility": true,
+      "subLayerIds": [8, 9],
+      "minScale": 50000,
+      "maxScale": 0,
+      "type": "Group Layer"
+    },
+    {
+      "id": 8,
+      "name": "Library",
+      "parentLayerId": 7,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 50000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "id": 9,
+      "name": "Mobile Library",
+      "parentLayerId": 7,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "id": 10,
+      "name": "Service Centres",
+      "parentLayerId": 0,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 50000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon"
+    },
+    {
+      "id": 11,
+      "name": "Emergency Services",
+      "parentLayerId": 0,
+      "defaultVisibility": true,
+      "subLayerIds": [12, 13, 14, 15, 16],
+      "minScale": 50000,
+      "maxScale": 0,
+      "type": "Group Layer"
+    },
+    {
+      "id": 12,
+      "name": "Ambulance",
+      "parentLayerId": 11,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 100000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "id": 13,
+      "name": "Fire Stations",
+      "parentLayerId": 11,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 100000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "id": 14,
+      "name": "Police Stations",
+      "parentLayerId": 11,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 100000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "id": 15,
+      "name": "Rural Fire Brigade",
+      "parentLayerId": 11,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 100000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "id": 16,
+      "name": "SES",
+      "parentLayerId": 11,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 100000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "id": 17,
+      "name": "Cemeteries",
+      "parentLayerId": 0,
+      "defaultVisibility": true,
+      "subLayerIds": [18, 19, 20],
+      "minScale": 300000,
+      "maxScale": 0,
+      "type": "Group Layer"
+    },
+    {
+      "id": 18,
+      "name": "Allotments",
+      "parentLayerId": 17,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 1500,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon"
+    },
+    {
+      "id": 19,
+      "name": "Cemetery Sections",
+      "parentLayerId": 17,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 5000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon"
+    },
+    {
+      "id": 20,
+      "name": "Cemeteries",
+      "parentLayerId": 17,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 10000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon"
+    },
+    {
+      "id": 21,
+      "name": "Contours",
+      "parentLayerId": -1,
+      "defaultVisibility": false,
+      "subLayerIds": [22, 23],
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Group Layer"
+    },
+    {
+      "id": 22,
+      "name": "5m Contours",
+      "parentLayerId": 21,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 25000,
+      "maxScale": 10000,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline"
+    },
+    {
+      "id": 23,
+      "name": "1m Contours",
+      "parentLayerId": 21,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 5001,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline"
+    },
+    {
+      "id": 24,
+      "name": "Infrastructure",
+      "parentLayerId": -1,
+      "defaultVisibility": true,
+      "subLayerIds": [25, 32, 38],
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Group Layer"
+    },
+    {
+      "id": 25,
+      "name": "Water",
+      "parentLayerId": 24,
+      "defaultVisibility": true,
+      "subLayerIds": [26, 27, 28, 29, 30, 31],
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Group Layer"
+    },
+    {
+      "id": 26,
+      "name": "Water Fitting",
+      "parentLayerId": 25,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 5000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "id": 27,
+      "name": "Water Auxiliary Valve",
+      "parentLayerId": 25,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 5000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "id": 28,
+      "name": "Water Hydrant",
+      "parentLayerId": 25,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 5000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "id": 29,
+      "name": "Water Main",
+      "parentLayerId": 25,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 10000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline"
+    },
+    {
+      "id": 30,
+      "name": "Water Service",
+      "parentLayerId": 25,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 5000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline"
+    },
+    {
+      "id": 31,
+      "name": "Abandoned Water Pipe",
+      "parentLayerId": 25,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 5000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline"
+    },
+    {
+      "id": 32,
+      "name": "Stormwater",
+      "parentLayerId": 24,
+      "defaultVisibility": true,
+      "subLayerIds": [33, 34, 35, 36, 37],
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Group Layer"
+    },
+    {
+      "id": 33,
+      "name": "Stormwater Pit",
+      "parentLayerId": 32,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 3000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "id": 34,
+      "name": "Stormwater End Structure",
+      "parentLayerId": 32,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 5000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "id": 35,
+      "name": "Stormwater Sub-Soil Drain",
+      "parentLayerId": 32,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 5000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline"
+    },
+    {
+      "id": 36,
+      "name": "Stormwater Pipe",
+      "parentLayerId": 32,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 5000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline"
+    },
+    {
+      "id": 37,
+      "name": "Abandoned Stormwater Pipe",
+      "parentLayerId": 32,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 5000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline"
+    },
+    {
+      "id": 38,
+      "name": "Sewer",
+      "parentLayerId": 24,
+      "defaultVisibility": true,
+      "subLayerIds": [39, 40, 41, 42, 43, 44, 45, 46],
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Group Layer"
+    },
+    {
+      "id": 39,
+      "name": "Recycled Effluent Fitting",
+      "parentLayerId": 38,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "id": 40,
+      "name": "Recycled Effluent Pipe",
+      "parentLayerId": 38,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 8000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline"
+    },
+    {
+      "id": 41,
+      "name": "Sewer Network Structure",
+      "parentLayerId": 38,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 8000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "id": 42,
+      "name": "Sewer Manhole",
+      "parentLayerId": 38,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "id": 43,
+      "name": "Sewer Gravity Main",
+      "parentLayerId": 38,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 10000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline"
+    },
+    {
+      "id": 44,
+      "name": "Sewer Pressure Main",
+      "parentLayerId": 38,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 10000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline"
+    },
+    {
+      "id": 45,
+      "name": "Sewer Service",
+      "parentLayerId": 38,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 2000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline"
+    },
+    {
+      "id": 46,
+      "name": "Abandoned Sewer Pipe",
+      "parentLayerId": 38,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 10000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline"
+    },
+    {
+      "id": 47,
+      "name": "Property",
+      "parentLayerId": -1,
+      "defaultVisibility": true,
+      "subLayerIds": [48, 49, 50, 51, 52],
+      "minScale": 50000,
+      "maxScale": 0,
+      "type": "Group Layer"
+    },
+    {
+      "id": 48,
+      "name": "Easments",
+      "parentLayerId": 47,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 25001,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon"
+    },
+    {
+      "id": 49,
+      "name": "Covenants",
+      "parentLayerId": 47,
+      "defaultVisibility": false,
+      "subLayerIds": null,
+      "minScale": 10001,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon"
+    },
+    {
+      "id": 50,
+      "name": "Localities",
+      "parentLayerId": 47,
+      "defaultVisibility": false,
+      "subLayerIds": null,
+      "minScale": 500000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon"
+    },
+    {
+      "id": 51,
+      "name": "Property Address",
+      "parentLayerId": 47,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 10000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon"
+    },
+    {
+      "id": 52,
+      "name": "Lot Plan",
+      "parentLayerId": 47,
+      "defaultVisibility": false,
+      "subLayerIds": null,
+      "minScale": 5050,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon"
+    },
+    {
+      "id": 53,
+      "name": "Parks",
+      "parentLayerId": -1,
+      "defaultVisibility": true,
+      "subLayerIds": [54, 55, 56, 57],
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Group Layer"
+    },
+    {
+      "id": 54,
+      "name": "Queens Park Trees",
+      "parentLayerId": 53,
+      "defaultVisibility": false,
+      "subLayerIds": null,
+      "minScale": 10000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "id": 55,
+      "name": "Street Trees",
+      "parentLayerId": 53,
+      "defaultVisibility": false,
+      "subLayerIds": null,
+      "minScale": 10000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "id": 56,
+      "name": "Off Leash Areas",
+      "parentLayerId": 53,
+      "defaultVisibility": false,
+      "subLayerIds": null,
+      "minScale": 100000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon"
+    },
+    {
+      "id": 57,
+      "name": "Parks",
+      "parentLayerId": 53,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 100000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon"
+    }
+  ],
+  "tables": [],
+  "spatialReference": {
+    "wkid": 7856,
+    "latestWkid": 7856
+  },
+  "singleFusedMapCache": false,
+  "initialExtent": {
+    "xmin": 394538.2668942855,
+    "ymin": 6947238.55341656,
+    "xmax": 395269.1798144447,
+    "ymax": 6947444.267369655,
+    "spatialReference": {
+      "wkid": 7856,
+      "latestWkid": 7856
+    }
+  },
+  "fullExtent": {
+    "xmin": 224355.02990000043,
+    "ymin": 6873680.2511,
+    "xmax": 450515.31149999984,
+    "ymax": 7040956.3671,
+    "spatialReference": {
+      "wkid": 7856,
+      "latestWkid": 7856
+    }
+  },
+  "minScale": 300000,
+  "maxScale": 0,
+  "units": "esriMeters",
+  "supportedImageFormatTypes": "PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP",
+  "documentInfo": {
+    "Title": "test2",
+    "Author": "darrb",
+    "Comments": "",
+    "Subject": "",
+    "Category": "",
+    "AntialiasingMode": "None",
+    "TextAntialiasingMode": "Force",
+    "Keywords": ""
+  },
+  "capabilities": "Map,Query,Data",
+  "supportedQueryFormats": "JSON, geoJSON",
+  "hasVersionedData": true,
+  "exportTilesAllowed": false,
+  "referenceScale": 0,
+  "datumTransformations": [
+    {
+      "geoTransforms": [
+        {
+          "wkid": 108001,
+          "latestWkid": 1241,
+          "transformForward": true,
+          "name": "NAD_1927_To_NAD_1983_NADCON"
+        }
+      ]
+    },
+    {
+      "geoTransforms": [
+        {
+          "wkid": 108001,
+          "latestWkid": 1241,
+          "transformForward": false,
+          "name": "NAD_1927_To_NAD_1983_NADCON"
+        }
+      ]
+    }
+  ],
+  "supportsDatumTransformation": true,
+  "maxRecordCount": 1000,
+  "maxImageHeight": 4096,
+  "maxImageWidth": 4096,
+  "supportedExtensions": "WMSServer",
+  "serviceItemId": "938153380b8f444a8e45348969200694"
+}
